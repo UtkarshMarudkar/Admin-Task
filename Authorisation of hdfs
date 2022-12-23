@@ -1,0 +1,11 @@
+-------------------------------------------- Authorisation of hdfs -------------------------------------------------
+
+$ su hdfs 
+  <error- authentication failed>
+$ cd /etc/passwd
+  <search for hdfs and convert /sbin/nologin into /bin/bash >
+$ sudo passwd hdfs 
+  <add password>
+$ su hdfs 
+
+---------------------------------------------------------------------------------------------------------------------------
